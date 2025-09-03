@@ -28,6 +28,10 @@ async function loadProducts() {
       <img src="${product.image}" alt="${product.name}" class="w-full h-64 object-cover rounded mb-4">
       <h3 class="text-xl font-bold mb-2">${product.name}</h3>
       <p class="text-lg font-semibold">$${product.price}</p>
+      <a href="${product.etsy}" target="_blank"
+         class="inline-block mt-4 bg-[var(--primary)] text-white px-4 py-2 rounded hover:bg-[var(--primary-dark)] transition">
+         Buy on Etsy
+      </a>
     `;
 
     grid.appendChild(card);
