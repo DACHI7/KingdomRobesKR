@@ -1,0 +1,17 @@
+:root {
+  --primary: #8B4513; /* Brown for earth tones */
+  --primary-dark: #5A2D0C;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth hover for product images */
+.product-card img {
+  transition: transform 0.3s ease;
+}
+.product-card img:hover {
+  transform: scale(1.05);
+}

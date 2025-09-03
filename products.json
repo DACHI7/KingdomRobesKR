@@ -1,0 +1,27 @@
+[
+  {
+    "name": "T-Shirt",
+    "price": 30,
+    "image": "images/tshirt1.jpg"
+  },
+  {
+    "name": "Hoodie",
+    "price": 45,
+    "image": "images/hoodie1.jpg"
+  },
+  {
+    "name": "Sweatpants",
+    "price": 50,
+    "image": "images/sweatpants1.jpg"
+  },
+  {
+    "name": "Beanie",
+    "price": 25,
+    "image": "images/beanie1.jpg"
+  },
+  {
+    "name": "Shorts",
+    "price": 35,
+    "image": "images/shorts1.jpg"
+  }
+]
