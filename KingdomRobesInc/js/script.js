@@ -29,7 +29,7 @@ async function loadProducts() {
       <h3 class="text-xl font-bold mb-2">${product.name}</h3>
       <p class="text-lg font-semibold">$${product.price}</p>
       <a href="${product.etsy}" target="_blank"
-         class="inline-block mt-4 bg-[var(--primary)] text-white px-4 py-2 rounded hover:bg-[var(--primary-dark)] transition">
+         class="inline-block mt-4 bg-[var(--primary,#1e40af)] text-white px-4 py-2 rounded hover:bg-[var(--primary-dark,#1e3a8a)] transition">
          Buy on Etsy
       </a>
     `;

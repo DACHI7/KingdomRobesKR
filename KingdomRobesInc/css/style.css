@@ -1,0 +1,10 @@
+:root {
+  --primary: #1e40af;
+  --primary-dark: #1e3a8a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
